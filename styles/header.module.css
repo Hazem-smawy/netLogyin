@@ -1,0 +1,134 @@
+.header {
+    background-color: first-color;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.icon {
+    font-size: 1.5rem;
+    color: #777;
+}
+.nav  {
+    display: flex;
+    flex-direction: row;
+}
+.nav ul {
+    
+    flex-direction: column;
+}
+.iconBar,.closeIcon,.userInfo {
+    display: none;
+}
+.minu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   flex: 1;
+   margin-left: 2rem;
+  
+}
+.nav a {
+    margin-left: 2rem;
+    align-items: center;
+}
+.nav a .icon {
+    display: none;
+}
+.logo {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+.favorite .icon:first-child {
+    margin-right: 1rem;
+}
+@media (max-width:767px) {
+
+    .minu {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+    }
+    .logo {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
+    .favorite .icon:first-child {
+        margin-right: 1rem;
+    }
+    .iconBar,.closeIcon,.userInfo {
+        display: block;
+    }
+    .nav  {
+        box-shadow: inset -6px -8px 20px 0px rgb(0 0 0 / 25%);
+        height: 100vh;
+        background-color: #e0e1e3;
+        position: fixed;
+        width:0;
+        border-radius: 0 1rem 1rem 0;
+        top: 0;
+        left: 0;
+        transition: all .3s;
+        overflow: hidden;
+        animation: opacityMinu .3s ease;
+        z-index: 10;
+    }
+    .nav.active {
+        display: block;
+        width: 79vw;
+        transition: all .3s;
+        overflow: visible;
+    }
+    @keyframes opacityMinu {
+        0%{
+            opacity: .2;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .userInfo {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav ul {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav ul a {
+        display: flex;
+        font-size: 1.3rem;
+        color: #777;
+        padding: .5rem 1rem;
+        background-color: #b5bcbd;
+        width: 90%;
+        margin: 1rem 2rem;
+        border-radius: .5rem;
+
+    }
+    .nav a .icon {
+        margin-right: 1rem;
+        display: block;
+    }
+    .closeIcon {
+        position: absolute;
+        right: .6rem;
+        top: 1.4rem;
+        font-size: 1.7rem;
+        color:#686767;
+    }
+    
+}

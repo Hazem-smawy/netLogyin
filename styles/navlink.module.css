@@ -1,0 +1,49 @@
+.navlink {
+    width: 100%;
+    margin :2rem auto;
+    
+}
+.navlink ul {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:.4rem;
+
+}
+.navlink ul::after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #f1e7ea;
+    transform: translateX(-50%);
+}
+.navlink a {
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+}
+.navlink a::after {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #2E707C;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.navlink a.active::after {
+    display: block;
+}
+@media (min-width:767px) {
+    .navlink {
+        width: 50%;
+        margin :2rem auto;
+        
+    }
+}

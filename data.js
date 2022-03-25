@@ -1,0 +1,25 @@
+import Image1 from './assets/about.jpg'
+import Image2 from './assets/perfil.png'
+import Image3 from './assets/project.png'
+import Image4 from './assets/product1.png'
+import Image5 from './assets/product2.png'
+import Image6 from './assets/product3.png'
+import Image7 from './assets/product4.png'
+import Image8 from './assets/w8.png'
+import Image9 from './assets/ear3.jpeg'
+import Image10 from './assets/ear7.jpg'
+
+export   const  data= [
+       
+        {id:1,url:Image1,title:"Love this one it is the most important",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:2,url:Image2,title:"similique quaerat minus repellendus optio quia ",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:3,url:Image3,title:"perform one int the world",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:4,url:Image4,title:"perform one int the world",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:5,url:Image5,title:"perform one int the world",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:6,url:Image6,title:"it is the beautifull",price:100,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:7,url:Image7,title:"specail one",price:10,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:8,url:Image8,title:"important person",price:200,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:9,url:Image9,title:"title of products",price:50,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+        {id:10,url:Image10,title:"perform one int ",price:600,description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, libero itaque praesentium voluptatem animi fugit labore maiores tempore ullam sint, similique quaerat minus repellendus optio quia nisi ad voluptatibus repellat excepturi perferendis, aliquid sed voluptates quos? Cum, et ex, minima praesentium dignissimos placeat atque iusto blanditiis aspernatur aut est nesciunt'},
+       
+    ]

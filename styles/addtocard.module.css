@@ -1,0 +1,16 @@
+.addBox {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #2E707C;
+    bottom:3rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addIcon {
+    font-size: 2rem;
+    color: #fff;
+}

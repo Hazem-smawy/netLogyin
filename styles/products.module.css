@@ -1,0 +1,110 @@
+
+.catTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin:1.5rem 0;
+
+}
+.catTitle p {
+    margin-left: 1rem;
+    font-size: var(--h3-font-size);
+}
+.catTitle .arrowIcon {
+    font-size: var(--h2-font-size);
+}
+.selectBox {
+    box-shadow: 0px 4px 6px 0px rgb(0 0 0 / 12%);
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.selectBox > * {
+    display: inline-block;
+
+}
+.selectBox span:first-child {
+    margin-right: 1rem;
+    font-size:var(--h3-font-size)
+}
+.productsPara {
+    margin: 1rem auto;
+    text-align: center;
+    color: var(--font-color-second);
+}
+.productsContainer {
+    column-count: 2;
+    column-gap: 1.5rem;
+    column-fill: auto;
+    margin-bottom: -1.5rem;
+}
+.productItem {
+    overflow: hidden;
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+    display:table;
+    background-color: var(--image-backColor);
+    padding: .5rem;
+}
+.productImage {
+    background-color: var(--image-backColor);
+    border-radius: .5rem;
+    overflow: hidden;
+   
+}
+.details {
+    border-top: 1px solid #8f8e8eaa;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.priceLove {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.heartIcon {
+    font-size: 1.5rem;
+}
+.heartIconFall {
+    font-size:1.5rem;
+    color:red;
+}
+.productTitle {
+    color:var(--font-color-second);
+    padding-bottom:.5rem ;
+}
+@media (min-width:767px) {
+    .productsContainer {
+        column-count: 3;
+        column-gap: 2rem;
+        
+        margin-bottom: -2rem;
+    }
+    .productItem {
+        display:table;
+        border-radius: .5rem;
+        margin-bottom: 2rem;
+    }
+    .productTitle {
+        color:var(--font-color-second);
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width:901px) {
+    .productsContainer {
+        column-count: 5;
+        column-gap: 2.5rem;
+     
+        margin-bottom: -2rem;
+    }
+    .productItem {
+        border-radius: .5rem;
+        -webkit-column-break-inside: avoid;
+        margin-bottom: 2.5rem;
+        page-break-inside: avoid;
+        display: inherit;
+        
+    }
+}
